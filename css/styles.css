@@ -1,31 +1,57 @@
 .header{
   text-align: center;
   font-family: 'Ultra', serif;
-  background: #D35400;
+  background: rgb(207, 70, 20);
   border-radius: 20px;
   padding-top:40px;
   padding-bottom: 40px;
   color: black;
 }
+body{
+  background-color: green;
+  background-size: cover;
+}
 .about{
   font-family: 'Faster One', cursive;
-  font-size: 35px;
+  font-size: 45px;
   color: black;
 }
 .gameplay{
   font-family: 'Nosifer', cursive;
   font-size: 30px;
+  color:rgb(167, 29, 29);
+}
+.gameplay-paragraph{
+  font-size: 17px;
+  font-family: 'Berkshire Swash', cursive;
+  color: black;
+}
+.gameplay-paragraph b{
+  color: rgb(0, 0, 0);
+}
+.col-md-3{
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 17px;
+  color: black;
+}
+.col-md-3 b{
   color: black;
 }
 .options{
   font-family: 'Nosifer', cursive;
   font-size: 25px;
-  color:rgb(129, 22, 22);
+  color:rgb(167, 29, 29);
 }
 .rules{
   font-family: 'Nosifer', cursive;
   font-size: 25px;
   color:rgb(129, 22, 22);
+}
+.listing{
+  font-size: 17px;
+  font-family: 'Berkshire Swash', cursive;
+  color: black;
+
 }
 .gameplay-rules{
   padding-left: 80px;
@@ -37,27 +63,46 @@
 .note{
   font-family: 'Oleo Script', cursive;
   font-size: 20px;
+  color: black;
 }
 .play{
   font-family: 'Nosifer', cursive;
   font-size: 25px;
-  color: rgb(129, 22, 22);
+  color: rgb(167, 29, 29);
 }
 .player1{
-  font-size: 20px;
+  font-size: 25px;
   font-style: italic;
   text-decoration-line: underline;
+  color: black;
 }
 .player2{
-  font-size: 20px;
+  font-size: 25px;
   font-style: italic;
   text-decoration-line: underline;
+  color: black;
 }
 .total1{
   font-size: 15px;
   color:rgb(12, 12, 138);
+  color: black;
 }
 .total2{
   font-size: 15px;
   color:rgb(12, 12, 138);
+  color: black;
+}
+#total1{
+  color:black;
+  font-size: 30px;
+}
+#total2{
+  color:black;
+  font-size: 30px;
+}
+#buttons{
+  font-size: 23px;
+}
+#buttons2{
+  font-size: 23px;
 }
