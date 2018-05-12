@@ -1,6 +1,7 @@
 .header{
   text-align: center;
-  font-family: 'Ultra', serif;
+  font-family: 'Faster One', cursive;
+  font-size: 60px;
   background: rgb(207, 70, 20);
   border-radius: 20px;
   padding-top:40px;
@@ -8,13 +9,14 @@
   color: black;
 }
 body{
-  background-color: green;
+  background-color: rgb(22, 146, 22);
   background-size: cover;
 }
 .about{
   font-family: 'Faster One', cursive;
   font-size: 45px;
   color: black;
+  text-decoration-line: underline;
 }
 .border-right{
 
@@ -29,6 +31,7 @@ body{
   font-family: 'Nosifer', cursive;
   font-size: 30px;
   color:rgb(167, 29, 29);
+  text-decoration-line: underline;
 }
 .gameplay-paragraph{
   font-size: 17px;
@@ -50,11 +53,14 @@ body{
   font-family: 'Nosifer', cursive;
   font-size: 25px;
   color:rgb(167, 29, 29);
+  text-decoration-line: underline;
+  text-decoration-color: black;
 }
 .rules{
   font-family: 'Nosifer', cursive;
   font-size: 25px;
   color:rgb(129, 22, 22);
+  text-decoration-line: underline;
 }
 .listing{
   font-size: 17px;
@@ -78,6 +84,7 @@ body{
   font-family: 'Nosifer', cursive;
   font-size: 25px;
   color: rgb(167, 29, 29);
+  text-decoration-line: underline;
 }
 .player1{
   font-size: 25px;
@@ -92,13 +99,11 @@ body{
   color: black;
 }
 .total1{
-  font-size: 15px;
-  color:rgb(12, 12, 138);
+  font-size: 7px;
   color: black;
 }
 .total2{
-  font-size: 15px;
-  color:rgb(12, 12, 138);
+  font-size: 7px;
   color: black;
 }
 #total1{
@@ -114,4 +119,20 @@ body{
 }
 #buttons2{
   font-size: 23px;
+}
+.panel-footer{
+  padding-top: 70px;
+  padding-bottom: 95px;
+  width:100%;
+  background: rgb(207, 70, 20);
+  border-radius: 15px;
+}
+#end{
+  font-size: 20px;
+}
+#github{
+  font-size: 20px;
+}
+#more-info{
+  font-size: 20px;
 }
