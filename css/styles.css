@@ -16,6 +16,15 @@ body{
   font-size: 45px;
   color: black;
 }
+.border-right{
+
+  border-right: 2px solid red;
+  
+  height:500px;
+  
+  width:500px;
+  
+  }
 .gameplay{
   font-family: 'Nosifer', cursive;
   font-size: 30px;
