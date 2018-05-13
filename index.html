@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Black+Ops+One|Faster+One|Lobster|Nosifer|Oleo+Script|Ultra|Zilla+Slab+Highlight" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.0.0.js"></script>
     <script src="js/scripts.js"></script>
     <title>Pig Dice</title>
   </head>
@@ -75,38 +75,58 @@
       </div>
       <br>
       <br>
+
+      <div class="jumbotron">
+
+        <button id="new-game" class="btn-info btn">NEW GAME</button>
+
+        <h1>Enter Player Name</h1>
+          <form id="player-1">
+            <div class="form-group">
+              <label for="player1Name">Player 1 Name:</label>
+              <input required class="player1Name form-control" type="text">
+            </div>
+          </form>
+          <form id="player-2">
+            <div class="form-group">
+              <label for="player2Name">Player 2 Name:</label>
+              <input required class="player2Name form-control" type="text">
+            </div>
+          </form>
+          <button id="start" class="btn-info btn">Start</button>
+      </div>
         
       <!-- end of options and rules section -->
       <!-- start of players section -->
       <div class="row">
         <div class="col-md-6">
           <p class="play"><b>Let's Play</b></p>
-          <p class="player1"><b>Player 1</b></p>
+          <h2>Player 1: <span id="player1Name"><span></h2>
           <img src="blank male.jpeg" alt="">
-          <div id="buttons">
-            <button type="button" id="roll-button">Roll</button>
-            <button type="button" id="hold-button">Hold</button>
+          <div id="the-button">
+            <button id="roll-die-button-1" class="btn-info btn">Roll</button>
+            <button id="hold-button-1" class="btn-info btn">Hold</button>
           </div>
           <br>
-          <div id="total1">
-            <p>Total score:</p>
-          </div>
+          <h3>Dice Roll: <span id="die-roll-1"></span></h3>
+          <p>Round Total: <span id="round-score-1"></span></p>
+          <h2>Total Score: <span id="total-score-1"></span></h2>
           <br>
           <br>
         </div>
         <br>
         <br>
         <div class="col-md-6">
-            <p class="player2"><b>Player 2</b></p>
+          <h2>Player 2: <span id="player2Name"><span></h2>
             <img src="blank female.jpeg" alt="">
-            <div id="buttons2">
-              <button type="button" id="roll-button-2">Roll</button>
-              <button type="button" id="hold-button-2">Hold</button>
+            <div id="the-button">
+              <button id="roll-die-button-2" class="btn-info btn">Roll</button>
+              <button id="hold-button-2" class="btn-info btn">Hold</button>
             </div>
             <br>
-            <div id="total2">
-              <p>Total score:</p>
-            </div>
+            <h3>Dice Roll: <span id="die-roll-2"></span></h3>
+            <p>Round Total: <span id="round-score-2"></span></p>
+             <h2>Total Score: <span id="total-score-2"></span></h2>
             <br>
             <br>
         </div>
