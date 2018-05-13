@@ -49,6 +49,7 @@ body{
 .col-md-3 b{
   color: black;
 }
+
 .options{
   font-family: 'Nosifer', cursive;
   font-size: 25px;
@@ -75,6 +76,11 @@ body{
   padding-left: 50px;
   text-align: center;
 }
+
+.jumbotron{
+  background-color: rgb(22, 146, 22) !important;
+}
+
 .note{
   font-family: 'Oleo Script', cursive;
   font-size: 20px;
@@ -114,12 +120,10 @@ body{
   color:black;
   font-size: 30px;
 }
-#buttons{
+#the-button{
   font-size: 23px;
 }
-#buttons2{
-  font-size: 23px;
-}
+
 .panel-footer{
   padding-top: 70px;
   padding-bottom: 95px;
