@@ -21,7 +21,7 @@ There are a few bugs:
 * Javascript
 * Jquery
 
-##Link to Deployed Site on gh-pages
+## Link to Deployed Site on gh-pages
 Here's the link to the live site of this project on GitHub Pages:[My Website](https://gift-lumumba.github.io/Pig-Dice/)
 
 ## Support and contact details
